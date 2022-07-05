@@ -241,7 +241,8 @@ nav ul li a{
     margin: 1rem  0;
 }
 .steps p{
-    text-align: center;
+    text-align: justify;
+    /* text-align: center; */
     color: white;
 }
 
