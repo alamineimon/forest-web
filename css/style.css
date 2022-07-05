@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: #e3ecc2;
+} 
+
+/* ------------------------------------------------------------------------Header Start */
+.header{
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 6rem;
+    height: 45rem;
+    color: white;
+}
+.logo img{
+    height: 6rem;
+}
+nav{
+    margin-top: -4rem;
+    text-align: right;
+}
+nav ul li{
+
+    display: inline;
+    padding: 0  1.2rem;
+    text-decoration: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.header h1{
+    text-align: center;
+    font-weight: 220;
+    font-size: 4.5rem;
+    margin-top: 8rem;
+}
+.header p{
+    font-size: 1.1rem;
+    letter-spacing: .1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------------Header End */
+
+/* ------------------------------------------------------------------------Popular Start */
+
+.popular{
+    height: 35rem;
+    padding: 1rem 2rem;
+    background-color: #e3ecc2;
+}
+.popular h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #7287ae;
+    /* margin-left: 22rem; */
+}
+
+.p-header h1{
+    text-align: center;
+    margin-top: 2rem;
+}
+.popular-item{
+    display: flex;
+    margin-top: 7rem;
+    /* padding: 1rem 2rem; */
+    width: 80%;
+    height: 100%;
+}
+.p-item{
+    margin: 1rem 3rem;
+    height: 90%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: white;
+}
+.p-item img{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    height: 18rem;
+}
+.item-details{
+    padding:2rem  2rem;
+}
+.item-details h1{
+    color: rgb(3, 3, 3);
+    font-size: 2rem;
+}
+.item-details p{
+    margin: 1rem 0;
+}
+.show{
+    background-color: #7287ae;
+    padding: .7rem 3rem;
+    border-radius: 1.8rem;
+    color: white;
+    margin: 8rem 0  0  34rem;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------------------Popular End */
+
+/* ------------------------------------------------------------------------Discount Start */
+
+.discount{
+    display: flex;
+    width: 100%;
+    background-color: white;
+
+    margin-top: 22rem;
+}
+
+.half-discount-righ{
+    width: 50%;
+    height: 100%;
+    margin-bottom: 200px;
+}
+.half-discount-left{
+    width: 50%;
+}
+.half-discount-left img{
+    height: 100%;
+    width: 96%;
+}
+.half-discount-right h1{
+    font-size: 3rem;
+    color: rgb(41, 40, 40);
+    margin-left: 6.5rem;
+    margin-top: 15rem;
+    margin-bottom: 2.5rem;
+}
+.half-discount-right p{
+    color: black;
+    font-size: 1.1rem;
+    margin-left: 6.5rem;
+    white-space: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+.readme-buttn{
+    margin-left: 6.5rem;
+    margin-top: 18rem;
+}
+
+
+.discount-down{
+    display: flex;
+    width: 100%;
+}
+
+.half-discount-righ{
+    width: 50%;
+}
+.half-discount-left{
+    width: 50%;
+}
+.half-discount-right img{
+    width: 100%;
+    height: 100%;
+}
+
+.half-discount-left h1{
+    font-size: 3rem;
+    color: rgb(41, 40, 40);
+    margin-left: 6.5rem;
+    margin-top: 15rem;
+    margin-bottom: 2.5rem;
+}
+.half-discount-left p{
+    color: black;
+    font-size: 1.1rem;
+    margin-left: 6.5rem;
+    white-space: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+.readme-buttn{
+    margin-left: 6.5rem;
+    margin-top: 18rem;
+}
+
+
+.readme-buttn{
+    margin-left: 6.5rem;
+    margin-top: 18rem;
+}
+
+/* ------------------------------------------------------------------------Discount End */
+
+
+/* ------------------------------------------------------------------------Order Start */
+
+.how-to-order{
+    height: 30rem;
+    padding: 2rem 6rem;
+    background-color:#7287ae;
+}
+.how-to-order h5{
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 3rem;
+    text-transform: uppercase;
+    color: white;
+}
+.order-step{
+    /* margin: 4.5rem 2rem; */
+    display: flex;
+}
+.steps{
+    margin: 5rem 2rem;
+    padding: 1.2rem 2rem;
+}
+
+.step-serial{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 5.5rem;
+    border-radius: 50%;
+    padding: 2px;
+    margin-bottom: -1rem;
+    background-color: white;
+}
+.step-serial h1{
+    margin-top: 1rem;
+    color:#7287ae;
+}
+.steps h2{
+    text-align: center;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin: 1rem  0;
+}
+.steps p{
+    text-align: center;
+    color: white;
+}
+
+/* ------------------------------------------------------------------------Order End */
+
+
+/* ------------------------------------------------------------------------Free-Delevary Start */
+
+
+.free-delivery{
+    height: 35rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/free-delivery-bg.jpg);
+}
+.free-delivery h1{
+    text-align: center;
+    font-weight: 220;
+    font-size: 4rem;
+    color:#7287ae;
+    font-weight: 700;
+    padding-top: 10rem;
+}
+.free-delivery p{
+    color:#7287ae;
+    margin: 1.8rem 0  4rem 0;
+}
+.get-voucher{
+    padding: 1rem 4.6rem;
+    color: white;
+    border-radius: 3rem;
+    text-decoration: none;
+    font-weight: 600;
+    background-color:#7287ae ;
+}
+
+
+/* ------------------------------------------------------------------------Free-Delevary End */
+
+
+/* ------------------------------------------------------------------------Waiter's Start */
+.waiter{
+    margin: 0;
+    padding: 0;
+}
+.waiter-top{
+    padding: 6rem 14rem;
+}
+
+.waiter img{
+    align-items: center;
+    height: 2rem;
+    margin-left: 26rem;
+    margin-bottom: 2rem;
+}
+.waiter p{
+    font-size: 1.5rem;
+    text-align: center;
+    color:#7287ae;
+}
+.waiter h2{
+    color:#7287ae;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+/* ------------------------------------------------------------------------Waiter's Start */
+
+.footer{
+    height: 40rem;
+    margin-top: -14rem;
+    color: white;
+    background-image: url(../images/fotter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer1{
+    display: flex;
+    width: 100%;
+    margin: 0 1.5rem;
+    /* margin-top: 30rem; */
+    padding: 0 5rem ;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer-left{
+    margin-top: 30rem;
+    width: 40%;
+    margin-right: 3rem;
+}
+.footer-left h1{
+    font-size: 2rem;
+}
+.footer-left p{
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer-middle1{
+    margin-top: 30rem;
+    width: 15%;
+}
+.footer-middle1 ul li{
+    text-decoration: none;
+    padding: 0.2rem 0;
+}
+.footer-middle1 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+.footer-middle2{
+    margin-top: 30rem;
+    width: 15%;
+}.footer-middle2 ul li{
+    text-decoration: none;
+    padding: 0.2rem 0;
+}
+.footer-middle2 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+.footer-right{
+    margin-top: 30rem;
+    width: 15%;
+}
+.footer-right ul li{
+    text-decoration: none;
+    padding: 0.2rem 0;
+}
+.footer-right ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.boro{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 01.8rem;
+    font-size: 1.2rem;
+}
+
+
+
